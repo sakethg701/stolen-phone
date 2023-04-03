@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHONE TRACKING SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src= "bg.png" class="bg" alt="IMAGE NOT FOUND">
+    <div class="container">
+        <h1>ENTER THE FOLLOWING DETAILS IN CASE OF MISSING PHONE</h1>
+        <p class="submitMsg">Thanks For Submitting The Form</p>
+        <br></br>
+        <br></br>
+        
+        <form action = "index.php" method ="post">
+            <input type = "text" name = "name" id = "name" placeholder="Enter Your Name" required>
+            <input type = "text" name = "phone" id = "phone" placeholder="Enter Your Phone Number" required>
+            <input type = "text" name = "email" id = "email" placeholder="Enter Your email" required>
+            <input type = "text" name = "IMEI" id="IMEI" placeholder="Enter the IMEI of Missing Phone" required>
+            <input type = "address" name="Address" id ="Address" placeholder="Enter your address" required>
+            <button class ="btn">Submit</button>
+        
+
+        </form>
+
+    </div>
+    <!--INSERT INTO `trip` (`sno`, `name`, `email`, `IMEI`, `Address`, `dt`) VALUES ('1', 'TEST', 'test@gmail.com', '324567865432345', 'vizag', current_timestamp());-->
+
+
+</body>
+</html>
